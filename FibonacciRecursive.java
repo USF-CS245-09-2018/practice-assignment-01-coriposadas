@@ -1,0 +1,15 @@
+/*
+A class to solve the Fibonacci sequence recursively.
+@author Cori Posadas
+*/
+
+public class FibonacciRecursive implements Fibonacci {
+
+	public int fibonacci(int n) {
+
+		if (n <= 1){
+			return n;
+		}
+		return fibonacci(n-1) + fibonacci(n-2);
+	}
+}
